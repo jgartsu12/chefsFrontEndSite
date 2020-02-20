@@ -19,7 +19,7 @@ export default class SiteManagerForm extends Component {
       banner_image: "",
       logo: "",
       editMode: false,
-      apiUrl: "https://127.0.0.1:8000/site_manager/site_manager_items",
+      apiUrl: "https://127.0.0.1:8000/api/create/",
       apiAction: "post"
     };
 
@@ -40,7 +40,7 @@ export default class SiteManagerForm extends Component {
   deleteImage(imageType) {
     axios
       .delete(
-        `https://127.0.0.1:8000/site_manager/delete-site-manager-image/${this.state
+        `https://127.0.0.1:8000/api/delete-image/${this.state
           .id}?image_type=${imageType}`,
         { withCredentials: true }
       )
@@ -174,7 +174,7 @@ export default class SiteManagerForm extends Component {
           banner_image: "",
           logo: "",
           editMode: false,
-          apiUrl: "https://127.0.0.1:8000/site_manager/site_manager_items",
+          apiUrl: "https://127.0.0.1:8000/api/create/",
           apiAction: "post"
         });
 

@@ -24,7 +24,7 @@ export default class SiteManagerDetail extends Component {
       )
       .then(response => {
         this.setState({
-          siteManagerItem: response.data.site__manager_item
+          siteManagerItem: response.data.site_manager_item
         });
       })
       .catch(error => {

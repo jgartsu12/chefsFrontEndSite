@@ -1,12 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class HomePage extends Component {
-    render() {
-        return (
-            <div>
-                <HeaderNavBar />
-                
-            </div>
-        )
-    }
+import SiteManagerContainer from "../site-manager/siteManagerContainer";
+import ChefsHomePageBanner from "../../../static/assets/images/chefs_home_page_banner.png";
+
+export default function() {
+    return (
+        <div>
+            <SiteManagerContainer />
+            <ChefsHomePageBanner />
+        </div>
+    );
 }

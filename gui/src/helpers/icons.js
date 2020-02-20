@@ -10,7 +10,8 @@ import {
     faLock,
     faFacebookSquare,
     faTwitter,
-    faInstagram
+    faInstagram,
+    faBreadSlice
   } from "@fortawesome/free-solid-svg-icons";
   import { library } from "@fortawesome/fontawesome-svg-core";
   
@@ -27,7 +28,8 @@ import {
       faLock,
       faFacebookSquare,
       faTwitter,
-      faInstagram
+      faInstagram,
+      faBreadSlice
     );
   };
   

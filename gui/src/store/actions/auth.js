@@ -83,7 +83,7 @@ export const authSignup = (username, email, password1, password2) => {
 
 export const authCheckState = () => {
     return dispatch => {
-        // check if toekn is stored in local storage if not
+        // check if token is stored in local storage if not
         const token = localStorage.getItem('token');
         if (token === undefined) {
             dispatch(logout());

@@ -20,7 +20,7 @@ export default function() {
             <div className='daily-soups-content-wrapper'>
                 {/* use axios to get soups here with site manager */}
                 <div className='soups-list'>
-                    <ul>
+                    <ul> {/* 10 hot daily soups */}
                         <li>{this.props.soup_name}</li>
                         <li>{this.props.soup_name}</li>
                         <li>{this.props.soup_name}</li>

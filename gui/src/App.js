@@ -5,6 +5,7 @@ import BaseRouter from './routes';
 import 'antd/dist/antd.css';
 import * as actions from './store/actions/auth';
 import Icons from "../helpers/icons";
+// import Styles from "./styles/main.scss"
 
 export default class App extends Component {
   constructor(props) {
